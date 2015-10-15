@@ -1,8 +1,8 @@
 {
   "name": "slime",
   "theme": "syntax",
-  "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "version": "1.0.0",
+  "description": "Colorful without being insane",
   "keywords": [
     "syntax",
     "theme"
