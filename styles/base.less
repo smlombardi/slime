@@ -50,7 +50,7 @@ atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .r
 }
 
 atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line, :host(.is-focused) .line-number.cursor-line-no-selection, :host(.is-focused) .line.cursor-line {
-  background-color: #3c464c;
+  background-color: @oil;
 }
 
 .comment {
@@ -237,4 +237,17 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 .variable.parameter {
   color: #C7AF3F;
+}
+
+// .punctuation.definition.string.begin.json .meta.structure.dictionary.value.json, .punctuation.definition.string.end.json  .meta.structure.dictionary.value.json {
+//   color: #DEDEDE;
+// }
+//
+
+.meta.structure.dictionary.json .string.quoted.double.json {
+color: #E19951;
+}
+
+.meta.structure.dictionary.value.json .string.quoted.double.json {
+color: #8F9D6A;
 }
