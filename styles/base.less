@@ -88,33 +88,6 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   color: #C7AF3F;
 }
 
-.entity.name.tag, .punctuation.definition.tag, .keyword.control.html.elements {
-  // color: #C7AF3F;
-  color:  hsl(49,46%,58%);;
-}
-
-.entity.name.tag.scss, .entity.name.tag.css {
-  color: @brandy-punch;
-}
-
-.entity.name.type.instance {
-  color: $pink;
-}
-
-.entity.other.attribute-name {
-  color: @dark-sea-green;
-}
-.entity.other.attribute-name.pseudo-class.css {
-  color: @coral-tree;
-}
-
-.entity.other.attribute-name.attribute {
-  color: @hippie-blue;
-}
-.entity.other.attribute-name.placeholder.scss {
-  color: @comet;
-}
-
 
 
 .entity.name.filename.find-in-files {
@@ -167,7 +140,6 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   color: #8F9D6A;
 }
 
-
 .meta.function-call {
   color: @plum;
 }
@@ -217,13 +189,12 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   color: hsl(202,20%,55%);
 }
 
-
 .support.constant.named-color, .meta.property-value .constant, .keyword.other.unit, .constant.other.color.rgb-value {
   color: #a4b3ca;
 }
 
 .support.type.property-name.css, .support.type.property-name.scss, .meta.property-list.css .meta.property-name.css, .meta.property-list.scss .meta.property-name.scss {
-  color: #C5AF75;
+  color: @tan;
 }
 
 .support.function {
@@ -246,6 +217,42 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 .variable.parameter {
   color: #C7AF3F;
 }
+
+// CSS/SASS
+
+.entity.name.tag, .punctuation.definition.tag, .keyword.control.html.elements {
+  // color: #C7AF3F;
+  color:  hsl(49,46%,58%);;
+}
+
+.entity.name.tag.scss, .entity.name.tag.css, .entity.name.tag.less, .keyword.control.html.elements {
+  color: @dark-khaki;
+}
+.entity.name.tag.custom.scss {
+  color: @cadetblue;
+}
+
+.entity.name.type.instance {
+  color: @plum;
+}
+
+.entity.other.attribute-name {
+  color: @dark-sea-green;
+}
+.entity.other.attribute-name.pseudo-class.css {
+  color: @coral-tree;
+}
+.entity.other.attribute-name.id {
+  color: @wild-willow;
+}
+
+.entity.other.attribute-name.attribute {
+  color: @hippie-blue;
+}
+.entity.other.attribute-name.placeholder.scss {
+  color: @comet;
+}
+
 
 // .punctuation.definition.string.begin.json .meta.structure.dictionary.value.json, .punctuation.definition.string.end.json  .meta.structure.dictionary.value.json {
 //   color: #DEDEDE;
