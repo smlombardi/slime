@@ -57,7 +57,9 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   color: hsl(215, 5%, 53%);
   font-style: italic;
 }
-
+.punctuation.definition.comment {
+  font-style: normal;
+}
 .constant.numeric {
   color: #C7AF3F;
 }
@@ -186,7 +188,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   color: #e1a170;
 }
 
-.string, .constant.character.escape,  .punctuation.parameters {
+.string, .constant.character.escaped.css,  .punctuation.parameters {
   color: hsl(202,20%,55%);
 }
 
