@@ -2,11 +2,10 @@
 
 Colorful without being too bright.  Ported from the Textmate theme "slime" with extensive edits. 
 
-Font used in screenshots is Operator Mono.  Comments and variables are in italics.
+This theme is no longer supported, I have moved to Visual Studio Code and have [ported the theme](https://github.com/smlombardi/theme-slime).
 
 ## HTML
 ![](https://raw.githubusercontent.com/smlombardi/slime/master/images/html.png)
-
 
 ## SCSS
 ![](https://raw.githubusercontent.com/smlombardi/slime/master/images/scss.png)
