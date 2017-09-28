@@ -268,3 +268,73 @@ color: #E19951;
 .syntax--meta.syntax--structure.syntax--dictionary.syntax--value.syntax--json .syntax--string.syntax--quoted.syntax--double.syntax--json {
 color: #8F9D6A;
 }
+
+// Markdown Styles
+.syntax--source.syntax--gfm {
+  color: @aluminum;
+}
+
+.syntax--gfm {
+  &.syntax--heading {
+    font-weight: bold;
+  }
+
+  &.syntax--bold {
+    font-weight: bold;
+  }
+
+  &.syntax--italic {
+    font-style: italic;
+  }
+
+  &.syntax--strike {
+    text-decoration: line-through;
+  }
+
+  .syntax--markup.syntax--heading {
+    color: @silver;
+  }
+
+  .syntax--link {
+    color: @dark-salmon;
+  }
+
+  .syntax--variable.syntax--list,
+  .syntax--support.syntax--quote {
+    color: @charcoal;
+  }
+
+  .syntax--link .syntax--entity {
+    color: @gainsboro;
+  }
+
+  .syntax--raw {
+    color: @base;
+  }
+}
+
+.syntax--markdown {
+  .syntax--paragraph {
+    color: @aluminum;
+  }
+
+  .syntax--heading {
+    color: @silver;
+  }
+
+  .syntax--raw {
+    color: @base;
+  }
+
+  .syntax--link {
+    color: @charcoal;
+
+    .syntax--string {
+      color: @charcoal;
+
+      &.syntax--title {
+        color: @gainsboro;
+      }
+    }
+  }
+}
